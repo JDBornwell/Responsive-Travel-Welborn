@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*
+
+
+   Responsive Travel
+   Author: Josh Welborn
+   Date:   07/03/2021
+
+   Filename:         styles.css
+
+*/
+/* Main Styles */
+body {
+
+ background-color: beige;
+
+}
+
+ul{
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+li {
+  display: inline;
+  text-align: center;
+  padding: 6px;
+  margin-left: 1.5em;
+  border-style: inset;
+  border-radius: 5px;
+  border-color: rgb(117,79,53);
+  background-color: rgba(117, 79, 53, 0.85);
+  color: black;
+  font-family: 'Charmonman';font-size:16px;
+  font-weight: bold;
+}
+.content {
+  display: inline;
+  margin:auto;
+  width:90%;
+  padding: 10px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: rgb(117,79,53);
+  background-image: url("background.jpg");
+  background-color: beige;
+  background-size:contain;
+}
+
+h2 {
+  background-color: rgba(16, 178, 189, .8);
+  color: rgb(117,79,53);
+  width:30%;
+  text-align: center;
+  font-family: 'Charmonman';font-size:30px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: rgb(117,79,53);
+  margin: 10px;
+
+
+}
+img {
+  max-width: 30%;
+  height: auto;
+}
+p {
+  background-color: rgba(117, 79, 53, 0.85);
+  color: black;
+  text-align: center;
+  font-family: 'Charmonman';font-size:20px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: rgb(117,79,53);
+  margin: 12px;
+  width:30%;
+
+}
+footer {
+  background-color: rgba(117, 79, 53, 0.85);
+  color: black;
+  text-align: center;
+  font-family: 'Charmonman';font-size:16px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: rgb(117,79,53);
+  margin: 12px;
+  font-weight: bold;
+
+}
+/* Link Styles */
+a:link{
+  color: Black;
+  text-decoration: none;
+  }
+
+  a:visited {
+    color: Black;
+    text-decoration: none;
+  }
+
+
+  a:active {
+
+    color: Black;
+  }

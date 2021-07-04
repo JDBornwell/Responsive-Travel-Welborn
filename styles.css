@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*
+
+
+   Responsive Travel
+   Author: Josh Welborn
+   Date:   07/03/2021
+
+   Filename:         styles.css
+
+*/
+/* Main Styles */
+body {
+
+ background-color: beige;
+
+}
+
+ul{
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+li {
+  display: inline;
+  text-align: center;
+  padding: 6px;
+  margin-left: 1.5em;
+  border-style: inset;
+  border-radius: 5px;
+  border-color: rgb(117,79,53);
+  background-color: rgba(117, 79, 53, 0.85);
+  color: black;
+  font-family: 'Charmonman';font-size:16px;
+  font-weight: bold;
+}
+.content {
+  margin:auto;
+  width: 90%;
+  padding: 10px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: rgb(117,79,53);
+  background-image: url("naboo.jpg");
+  background-color: beige;
+  background-size:cover;
+}
+.column4{
+  display: none;
+}
+h2 {
+  background-color: rgba(16, 178, 189, .8);
+  color: rgb(117,79,53);
+  text-align: center;
+  font-family: 'Charmonman';font-size:30px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: rgb(117,79,53);
+  margin: 10px;
+
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  background-color: rgba(117, 79, 53, 0.85);
+  color: black;
+  text-align: center;
+  font-family: 'Charmonman';font-size:20px;
+  font-weight: bold;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: rgb(117,79,53);
+  margin: 12px;
+
+}
+footer {
+  background-color: rgba(117, 79, 53, 0.85);
+  color: black;
+  text-align: center;
+  font-family: 'Charmonman';font-size:16px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: rgb(117,79,53);
+  margin: 12px;
+  font-weight: bold;
+
+}
+/* Link Styles */
+a:link{
+  color: Black;
+  text-decoration: none;
+  }
+
+  a:visited {
+    color: Black;
+    text-decoration: none;
+  }
+
+
+  a:active {
+
+    color: Black;
+  }
+
+@media screen and (min-width: 600px) {
+  .content {
+    margin:auto;
+    width: 90%;
+    padding: 10px;
+    border-style: inset;
+    border-radius: 15px;
+    border-color: rgb(117,79,53);
+    background-image: url("flyoverbackground.png");
+    background-color: beige;
+    background-size:cover;
+  }
+.column1, .column2, .column3 {
+  width:30%;
+  float: left;
+  padding: 10px;
+}
+footer {
+  clear: both;
+}
+p {
+  
+  padding: 6px;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+  .content {
+    margin:auto;
+    width: 90%;
+    padding: 10px;
+    border-style: inset;
+    border-radius: 15px;
+    border-color: rgb(117,79,53);
+    background-image: url("overview.png");
+    background-color: beige;
+    background-size:cover;
+  }
+.column1, .column2, .column3 {
+  width:30%;
+  float: left;
+  padding: 10px;
+}
+.column4 {
+  margin: auto;
+  display: block;
+  clear: both;
+  border-style: inset;
+  border-radius: 25px;
+  border-color: rgb(117,79,53);
+  width:75%;
+}
+footer {
+  clear: both;
+}
+p {
+  color: White;
+  padding: 6px;
+}
+h2{
+  margin: 10px;
+}
+
+
+}
