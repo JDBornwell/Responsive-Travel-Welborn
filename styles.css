@@ -9,7 +9,7 @@
    Filename:         styles.css
 
 */
-/* Main Styles */
+/* Main Style */
 body {
 
  background-color: beige;
@@ -104,7 +104,7 @@ a:link{
 
     color: Black;
   }
-
+/* @media styles */
 @media screen and (min-width: 600px) {
   .content {
     margin:auto;
@@ -126,7 +126,7 @@ footer {
   clear: both;
 }
 p {
-  
+
   padding: 6px;
 }
 
